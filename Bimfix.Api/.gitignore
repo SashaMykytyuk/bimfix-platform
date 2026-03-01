@@ -1,0 +1,20 @@
+# build
+bin/
+obj/
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# secrets / local configs
+appsettings.Development.json
+
+# runtime uploads
+Data/Uploads/
+Data/Logs/
+
+# OS junk
+Thumbs.db
+.DS_Store

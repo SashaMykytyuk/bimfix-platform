@@ -1,0 +1,17 @@
+services:
+  db:
+    image: mariadb:11
+    container_name: bimfix_db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: rootpass
+      MARIADB_DATABASE: bimfixdb
+      MARIADB_USER: bimfix
+      MARIADB_PASSWORD: bimfix_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - bimfix_mariadb:/var/lib/mysql
+
+volumes:
+  bimfix_mariadb:
