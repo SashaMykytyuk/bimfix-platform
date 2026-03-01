@@ -21,4 +21,6 @@ public class ServiceRequest
     public string PaymentStatus { get; set; } = "NotPaid";
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+    public List<RequestFile> Files { get; set; } = new();
 }
