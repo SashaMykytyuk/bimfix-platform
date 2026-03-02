@@ -62,15 +62,6 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddCors(o =>
-{
-    o.AddPolicy("frontend", p => p
-        .WithOrigins("http://localhost:5173")
-        .AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowCredentials());
-});
-
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
@@ -84,10 +75,6 @@ if (app.Environment.IsDevelopment())
 
 // ❌ disabled for dev because you run only http:5085 (your log said it can't find https port)
 // app.UseHttpsRedirection();
-
-
-
-app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();

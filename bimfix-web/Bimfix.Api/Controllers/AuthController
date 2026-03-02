@@ -54,12 +54,4 @@ public class AuthController : ControllerBase
         await _signInManager.SignOutAsync();
         return Ok(new { message = "Logged out" });
     }
-    [HttpGet("me")]
-    public IActionResult Me()
-    {
-        if (User?.Identity?.IsAuthenticated != true)
-        return Unauthorized();
-
-    return Ok(new { email = User.Identity!.Name });
-    }
 }
