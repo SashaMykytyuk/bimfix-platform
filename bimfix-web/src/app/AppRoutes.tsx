@@ -18,6 +18,7 @@ import { NotFoundPage } from "../pages/NotFoundPage";
 import { LoginPage } from "../pages/LoginPage";
 import { RegisterPage } from "../pages/RegisterPage";
 import { CabinetPage } from "../pages/CabinetPage";
+import { ToolsPage } from "../pages/ToolsPage";
 
 
 
@@ -41,6 +42,7 @@ export function AppRoutes() {
         <Route path={routes.login} element={<LoginPage />} />
         <Route path={routes.register} element={<RegisterPage />} />
         <Route path={routes.cabinet} element={<CabinetPage />} />
+        <Route path={routes.tools} element={<ToolsPage />} />
       </Route>
     </Routes>
   );

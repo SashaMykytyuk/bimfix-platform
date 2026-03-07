@@ -6,13 +6,14 @@ const resources = {
     translation: {
       nav: {
         home: "Головна",
+        poslugy: "Послуги",
         services: "Сервіси",
         about: "Про нас",
         contacts: "Контакти",
-        offer: "Публічна оферта",
-        privacy: "Політика конфіденційності",
-        login: "Вхід",
-        auth: { register: "Реєстрація" }
+        login: "Вхід"
+      },
+      auth: {
+        register: "Реєстрація"
       },
       home: {
         title: "BIMFIX — BMW кодування / програмування / дооснащення",
@@ -20,17 +21,19 @@ const resources = {
       },
     },
   },
+
   en: {
     translation: {
       nav: {
         home: "Home",
-        services: "Services",
+        poslugy: "Services",
+        services: "Tools",
         about: "About",
         contacts: "Contacts",
-        offer: "Public offer",
-        privacy: "Privacy policy",
-        login: "Login",
-        auth: { register: "Register" }
+        login: "Login"
+      },
+      auth: {
+        register: "Register"
       },
       home: {
         title: "BIMFIX — BMW coding / programming / retrofit",
@@ -38,17 +41,19 @@ const resources = {
       },
     },
   },
+
   ru: {
     translation: {
       nav: {
         home: "Главная",
+        poslugy: "Услуги",
         services: "Сервисы",
         about: "О нас",
         contacts: "Контакты",
-        offer: "Публичная оферта",
-        privacy: "Политика конфиденциальности",
-        login: "Вход",
-        auth: { register: "Регистрация" }
+        login: "Вход"
+      },
+      auth: {
+        register: "Регистрация"
       },
       home: {
         title: "BIMFIX — BMW кодирование / программирование / дооснащение",
