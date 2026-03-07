@@ -11,9 +11,9 @@ const resources = {
         contacts: "Контакти",
         offer: "Публічна оферта",
         privacy: "Політика конфіденційності",
-        login: "Вхід",
-        auth: { register: "Реєстрація" }
+        login: "Вхід"
       },
+      auth: { register: "Реєстрація" },
       home: {
         title: "BIMFIX — BMW кодування / програмування / дооснащення",
         subtitle: "Сучасний сервіс електроніки BMW у Рівному.",
@@ -29,9 +29,9 @@ const resources = {
         contacts: "Contacts",
         offer: "Public offer",
         privacy: "Privacy policy",
-        login: "Login",
-        auth: { register: "Register" }
+        login: "Login"
       },
+      auth: { register: "Register" },
       home: {
         title: "BIMFIX — BMW coding / programming / retrofit",
         subtitle: "Modern BMW electronics service in Rivne.",
@@ -47,9 +47,9 @@ const resources = {
         contacts: "Контакты",
         offer: "Публичная оферта",
         privacy: "Политика конфиденциальности",
-        login: "Вход",
-        auth: { register: "Регистрация" }
+        login: "Вход"
       },
+      auth: { register: "Регистрация" },
       home: {
         title: "BIMFIX — BMW кодирование / программирование / дооснащение",
         subtitle: "Современный сервис электроники BMW в Ровно.",
